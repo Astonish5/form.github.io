@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+form{
+
+    background-color: rgba(211, 211, 211, 0.795);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 15px;
+    background-color: rgb(238, 248, 248);
+    border-radius: 10px;
+
+}
+.name{ 
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 15px;
+    background-color: rgb(238, 248, 248);
+    border-radius: 10px; 
+    padding: 20px
+}
+.index{
+    
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 15px;
+    background-color: rgb(238, 248, 248);
+    border-radius: 10px; 
+    padding: 20px
+}
+.elect{
+    
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 15px;
+    background-color: rgb(238, 248, 248);
+    border-radius: 10px; 
+    padding: 20px;
+    display: block;
+}
+.blank{
+    width: 400px;
+    background-color: rgb(28, 248, 28);
+    height: 15px;
+    margin-left: 540px;
+    border-radius: 10px;
+}
+.page{
+    
+     float: right;
+     padding-left: 30px;
+    
+}
+.page1{
+    display: flex;
+    margin-bottom: 15px;
+}
+#submit{
+    padding: 10px 30px;
+    margin-left: 500px;
+    border: none;
+    background-color: rgb(58, 58, 252);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+#reset{
+    padding: 10px 30px;
+    color: blue;
+    border: none;
+    background-color: rgba(211, 211, 211, 0.795);
+    margin-left: 380px;
+    float: 
+}
+.p1{
+    margin-left: 500px;
+    padding-bottom: 20px;
+}
+.p2{
+    margin-left: 560px;
+    width: 450px;
+    padding-bottom: 20px;
+}
+.p3{
+    margin-left: 630px;
+    padding-bottom: 30px;
+}
+.p4{
+    text-align: center;
+}
+.f1{
+font-weight: 20;
+}
+.f2{
+    padding: 2px 4px 2px ;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.blank1{
+    height: 10px;
+    background-color: indigo;
+    border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+
+}
+.f3{
+padding-left: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+font-weight: 20;
+}
+.f4{
+padding-left: 20px;
+width: 350px;
+word-spacing: 5px;
+padding-bottom: 15px;
+}
+.star{
+color: rgb(204, 8, 8);}
+.mail{
+padding-left: 20px;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+#mail{
+margin-left: 20px;
+width: 500px;
+border-top: none;
+border-left: none;
+border-right: none;
+background-color: rgb(238, 248, 248);
+margin-bottom: 10px;
+
+}
+.n1{
+padding-left: 10px;}
+.fa{
+padding-left: 20px;
+padding-bottom: 10px;
+}
+.star1{
+color: rgb(219, 8, 8);
+padding-left: 20px;
+padding-top: 10px;
+padding-bottom: 15px;
+
+}
+#name{
+   
+width: 500px;
+border-top: none;
+border-left: none;
+border-right: none;
+background-color: rgb(238, 248, 248);
+margin-bottom: 10px; 
+}
+.name{
+    padding-bottom: px;
+padding-top: 10px;
+}
+.name1{
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+#index{
+    
+width: 500px;
+border-top: none;
+border-left: none;
+border-right: none;
+background-color: rgb(238, 248, 248);
+margin-bottom: 10px; 
+}
+.index1{
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.choose{
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.soft{
+    padding-bottom: 20px;
+}
+.digital{
+    padding-bottom: 20px;
+}
+.energy{
+    padding-bottom: 20px;
+}
+@media only screen and (max-width:700px) {
+    .container{
+        margin-top: 10px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 15px;
+        background-color: rgb(238, 248, 248);
+        border-radius: 10px;
+    }
+    
+    .name{ 
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 15px;
+        background-color: rgb(238, 248, 248);
+        border-radius: 10px; 
+        padding: 20px
+    }
+    .index{
+        
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 15px;
+        background-color: rgb(238, 248, 248);
+        border-radius: 10px; 
+        padding: 20px
+    }
+    .elect{
+        
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 15px;
+        background-color: rgb(238, 248, 248);
+        border-radius: 10px; 
+        padding: 20px;
+        display: block;
+    }
+    
+    #submit{
+    padding: 10px 30px;
+    margin-left: 40px;
+    border: none;
+    background-color: rgb(58, 58, 252);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+#reset{
+    padding: 10px 30px;
+    color: blue;
+    border: none;
+    background-color: rgba(211, 211, 211, 0.795);
+    margin-left: 30px;
+    float: right;
+}
+
+.blank{
+    width: 400px;
+    background-color: rgb(28, 248, 28);
+    height: 15px;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+.p1{
+    margin-left: 40px;
+    padding-bottom: 20px;
+}
+.p2{
+    margin-left: 100px;
+    width: 450px;
+    padding-bottom: 20px;
+}
+.p3{
+    margin-left: 190px;
+    padding-bottom: 30px;
+}
+.p4{
+    text-align: center;
+}
+.f1{
+font-weight: 20;
+}
+.f2{
+    padding: 2px 4px 2px ;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.blank1{
+    height: 10px;
+    background-color: indigo;
+    border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+
+}
+.f3{
+padding-left: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+font-weight: 20;
+}
+.f4{
+padding-left: 20px;
+width: 350px;
+word-spacing: 5px;
+padding-bottom: 15px;
+}
+.star{
+color: rgb(204, 8, 8);}
+.mail{
+padding-left: 20px;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+}
